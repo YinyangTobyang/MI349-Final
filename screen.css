@@ -1,4 +1,11 @@
 /* Add screen styles below */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f1f1;
+}
+
 #TitleBox{
     position: relative;
     top:0;
@@ -6,6 +13,7 @@
     width: 100%;
     height: 199px;
     flex-shrink: 0;
+    font-family: Helvetica;
     background: #F4A64E;
 }
 #Logo{
@@ -15,10 +23,6 @@
     width: 202px;
     height: 202px;
     flex-shrink: 0;
-}
-#TitleBox{
-    color: #321F04;
-    font-family: Helvetica;
 }
 #TitleBox h1{
     position: absolute;
@@ -73,24 +77,19 @@ nav li a:hover {
     background-color: #e05d10;
 }
 
-#Shop{
-    position: relative;
-    top: 40px;
-    padding-top: 90px;  
-    margin: 10px;
+main{
+    margin-top: 150px;
+    height:fit-content;
 }
 
-#Shop img{
+main img{
     float:right;
-    width: 900px;
-    height: 590px;
+    width: 40%;
+    height: 40%;
     border: 12px solid #F09D3B;
 }
-#Shop h1 h2 h3 p {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-#Shop h1{
+
+main h1{
     color: #EFB255;
     font-size: 70px;
     font-style: normal;
@@ -98,7 +97,7 @@ nav li a:hover {
     line-height: normal;
 }
 
-#Shop h2{
+main h2{
     color: #321F04;
     font-size: 64px;
     font-style: normal;
@@ -106,7 +105,7 @@ nav li a:hover {
     line-height: normal;
 }
 
-#Shop h3{
+main h3{
     color: #321F04;
     font-size: 90px;
     font-style: normal;
@@ -114,18 +113,54 @@ nav li a:hover {
     line-height: normal;
 }
 
-#Shop p{
+main p{
     color: #321F04;
-    font-size: 27px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
-#EndBox{
-    margin-top: auto;
+
+main button{
+    width: 547px;
+    height: 82px;
+    border: 11px solid #EB9A1E;
+    background: #88642E;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+main button:hover{
+    background-color: #a3897a;
+}
+footer{
+    margin-top: 220px;
+}
+
+#BottomFooter{
+    position: relative;
+    bottom: 0;
     width: 100%; 
-    height: 124px;
+    height: 94px;
     background: #F4A64E;
+    display: flex;
+}
+#BottomFooter img{
+    position: relative;
+    left:40px;
+    width: 68px;
+    height: 68px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    padding-right: 20px;
+}
+
+#logo2{
+    margin-left: auto;
+    margin-right: 40px;
 }
 
 
