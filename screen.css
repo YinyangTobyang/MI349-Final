@@ -80,16 +80,17 @@ nav li a:hover {
 main{
     margin-top: 150px;
     height:fit-content;
+    margin-left: 30px;
 }
 
-main img{
+#ShopPage img{
     float:right;
     width: 40%;
     height: 40%;
     border: 12px solid #F09D3B;
 }
 
-main h1{
+#ShopPage h1{
     color: #EFB255;
     font-size: 70px;
     font-style: normal;
@@ -97,7 +98,7 @@ main h1{
     line-height: normal;
 }
 
-main h2{
+#ShopPage h2{
     color: #321F04;
     font-size: 64px;
     font-style: normal;
@@ -105,7 +106,7 @@ main h2{
     line-height: normal;
 }
 
-main h3{
+#ShopPage h3{
     color: #321F04;
     font-size: 90px;
     font-style: normal;
@@ -113,7 +114,7 @@ main h3{
     line-height: normal;
 }
 
-main p{
+#ShopPage p{
     color: #321F04;
     font-size: 28px;
     font-style: normal;
@@ -121,7 +122,7 @@ main p{
     line-height: normal;
 }
 
-main button{
+#ShopPage button{
     width: 547px;
     height: 82px;
     border: 11px solid #EB9A1E;
@@ -133,8 +134,41 @@ main button{
     line-height: normal;
 }
 
-main button:hover{
+#ShopPage button:hover{
     background-color: #a3897a;
+}
+
+#AboutPage{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;  
+}
+#AboutPage h1{
+    color: #88642E;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+#AboutPage h2{
+    color: #321F04;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+#AboutPage img{
+    width: 30%;
+    height: 30%;
+    border: 12px solid #F09D3B;
+}
+#AboutPage p{
+    height: fit-content;
+    width: 70%;
+    color: #321F04;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 100;
 }
 footer{
     margin-top: 220px;
