@@ -211,6 +211,7 @@ footer{
     #TitleBox h2{
         position: absolute;
         top: 45px;
+        left: 240px;
         font-size: 25px;
         font-weight: 800;
         line-height: normal;
