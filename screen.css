@@ -199,6 +199,9 @@ footer{
 }
 
 @media screen and (max-width: 616px) {
+    body {
+        background-size: 40%;
+    }
     #TitleBox h1{
         position: absolute;
         top: -20px;
@@ -211,7 +214,7 @@ footer{
     #TitleBox h2{
         position: absolute;
         top: 45px;
-        left: 240px;
+        left: 220px;
         font-size: 25px;
         font-weight: 800;
         line-height: normal;
